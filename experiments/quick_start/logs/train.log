@@ -1,0 +1,155 @@
+2023-08-21 09:06:35,508:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:35:19,250:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:35:19,250:INFO: File: ./data/train
+2023-08-21 09:52:26,029:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:53:09,053:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:53:09,053:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train
+2023-08-21 09:55:05,452:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:55:05,452:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train
+2023-08-21 09:55:32,836:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:55:32,836:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train
+2023-08-21 09:56:09,639:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:56:09,639:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/xxx
+2023-08-21 09:58:31,098:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:58:31,098:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train
+2023-08-21 09:58:43,281:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:58:58,751:INFO: Starting training for [2] epoch(s)
+2023-08-21 09:58:58,751:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:03:23,005:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:03:23,005:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:03:45,444:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:03:45,444:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:03:59,768:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:03:59,768:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:03:59,771:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:04:12,116:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:09:35,548:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:09:35,548:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:09:35,551:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:09:47,639:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:10:39,117:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:10:39,117:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:10:39,120:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:10:51,603:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:10:52,815:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:12:15,236:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:12:15,236:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:12:15,239:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:12:27,600:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:12:28,824:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:12:28,824:INFO: Epoch 1/2
+2023-08-21 10:12:28,824:INFO: Training
+2023-08-21 10:13:14,404:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:13:14,404:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:13:14,406:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:13:26,646:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:13:27,857:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:13:27,857:INFO: Epoch 1/2
+2023-08-21 10:13:27,857:INFO: Training
+2023-08-21 10:19:03,153:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:19:03,153:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:19:03,155:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:19:15,371:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:19:16,581:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:19:16,581:INFO: Epoch 1/2
+2023-08-21 10:19:16,581:INFO: Training
+2023-08-21 10:20:39,377:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:20:39,377:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:20:39,379:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:20:51,518:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:20:52,700:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:20:52,701:INFO: Epoch 1/2
+2023-08-21 10:20:52,701:INFO: Training
+2023-08-21 10:26:47,730:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:26:47,731:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:26:47,733:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:26:59,868:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:27:01,079:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:27:01,079:INFO: Epoch 1/2
+2023-08-21 10:27:01,079:INFO: Training
+2023-08-21 10:32:47,859:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:32:47,859:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:32:59,940:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:33:01,176:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:33:01,180:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:33:01,180:INFO: Epoch 1/2
+2023-08-21 10:33:01,180:INFO: Training
+2023-08-21 10:34:42,924:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:34:42,924:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:34:55,127:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:34:56,324:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:34:56,327:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:34:56,328:INFO: Epoch 1/2
+2023-08-21 10:34:56,328:INFO: Training
+2023-08-21 10:35:45,984:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:35:45,984:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:35:58,199:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:35:59,413:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:35:59,417:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:35:59,417:INFO: Epoch 1/2
+2023-08-21 10:35:59,417:INFO: Training
+2023-08-21 10:36:44,187:INFO: - Train metrics: accuracy: 0.060 ; loss: -12898.333
+2023-08-21 10:36:44,187:INFO: Validation
+2023-08-21 10:37:20,128:INFO: - Train metrics: accuracy: 0.053 ; loss: -46439.220
+2023-08-21 10:43:57,941:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:43:57,942:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:44:08,265:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:44:08,265:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:44:20,476:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:44:21,693:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:44:21,697:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:44:21,697:INFO: Epoch 1/2
+2023-08-21 10:44:21,697:INFO: Training
+2023-08-21 10:45:06,055:INFO: - Train metrics: accuracy: 0.060 ; loss: -12898.333
+2023-08-21 10:45:06,055:INFO: Validation
+2023-08-21 10:45:41,960:INFO: - Train metrics: accuracy: 0.053 ; loss: -46439.220
+2023-08-21 10:46:40,178:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:46:40,178:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:46:52,493:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:46:53,702:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:46:53,706:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:46:53,706:INFO: Epoch 1/2
+2023-08-21 10:46:53,706:INFO: Training
+2023-08-21 10:47:40,025:INFO: - Train metrics: accuracy: 0.060 ; loss: -12898.333
+2023-08-21 10:47:40,025:INFO: Validation
+2023-08-21 10:48:16,471:INFO: - Train metrics: accuracy: 0.053 ; loss: -46439.220
+2023-08-21 10:57:46,581:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:57:46,581:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 10:57:58,777:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 10:57:59,979:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 10:57:59,983:INFO: Starting training for [2] epoch(s)
+2023-08-21 10:57:59,983:INFO: Epoch 1/2
+2023-08-21 10:57:59,983:INFO: Training
+2023-08-21 10:58:44,129:INFO: - Train metrics: accuracy: 0.060 ; loss: -12898.333
+2023-08-21 10:58:44,129:INFO: Validation
+2023-08-21 10:59:19,931:INFO: - Train metrics: accuracy: 0.053 ; loss: -46439.220
+2023-08-21 10:59:19,945:INFO: - Found new best accuracy
+2023-08-21 10:59:19,946:INFO: Epoch 2/2
+2023-08-21 10:59:19,946:INFO: Training
+2023-08-21 11:00:05,264:INFO: - Train metrics: accuracy: 0.039 ; loss: -131450.253
+2023-08-21 11:00:05,264:INFO: Validation
+2023-08-21 11:00:41,134:INFO: - Train metrics: accuracy: 0.053 ; loss: -255423.202
+2023-08-21 11:00:41,144:INFO: - Found new best accuracy
+2023-08-21 11:00:41,145:INFO: Testing
+2023-08-21 11:01:16,919:INFO: - Train metrics: accuracy: 0.053 ; loss: -255422.972
+2023-08-21 11:01:16,920:INFO: Test Metrics: {'accuracy': 0.053094496185092516, 'loss': -255422.97204170914}
+2023-08-21 11:03:57,571:INFO: Starting training for [2] epoch(s)
+2023-08-21 11:03:57,572:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/train/KRk.csv
+2023-08-21 11:04:09,927:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/val/KRk.csv
+2023-08-21 11:04:11,135:INFO: File: /Users/littlecapa/GIT/python/KRk_net/data/test/KRk.csv
+2023-08-21 11:04:11,139:INFO: Starting training for [2] epoch(s)
+2023-08-21 11:04:11,139:INFO: Epoch 1/2
+2023-08-21 11:04:11,139:INFO: Training
+2023-08-21 11:04:57,641:INFO: - Train metrics: accuracy: 0.060 ; loss: -12898.333
+2023-08-21 11:04:57,641:INFO: Validation
+2023-08-21 11:05:34,075:INFO: - Train metrics: accuracy: 0.053 ; loss: -46439.220
+2023-08-21 11:05:34,086:INFO: - Found new best accuracy
+2023-08-21 11:05:34,087:INFO: Epoch 2/2
+2023-08-21 11:05:34,087:INFO: Training
+2023-08-21 11:06:20,042:INFO: - Train metrics: accuracy: 0.039 ; loss: -131450.253
+2023-08-21 11:06:20,042:INFO: Validation
+2023-08-21 11:06:56,015:INFO: - Train metrics: accuracy: 0.053 ; loss: -255423.202
+2023-08-21 11:06:56,028:INFO: - Found new best accuracy
+2023-08-21 11:06:56,031:INFO: Testing
+2023-08-21 11:07:32,067:INFO: - Train metrics: accuracy: 0.053 ; loss: -255422.972
+2023-08-21 11:07:32,068:INFO: Test Metrics: {'accuracy': 0.053094496185092516, 'loss': -255422.97204170914}

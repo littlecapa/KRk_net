@@ -1,0 +1,17 @@
+{
+    "learning_rate": [1e-4],
+    "batch_size": [32],
+    "num_epochs": [2],
+    "dropout_rate":[0.1, 0.2], 
+    "num_channels": 832,
+    "save_summary_steps": 100,
+    "num_workers": 4,
+    "restore": false,
+    "seed": 230,
+    "base_dir": "/Users/littlecapa/GIT/python/KRk_net/",
+    "data_dir": "data/",
+    "data_file_name": "KRk.csv",
+    "checkpoint_dir": "experiments/quick_start/checkpoint",
+    "stats_dir": "experiments/quick_start/stats",
+    "log_dir": "experiments/quick_start/logs"
+}
