@@ -153,3 +153,271 @@
 2023-08-21 11:06:56,031:INFO: Testing
 2023-08-21 11:07:32,067:INFO: - Train metrics: accuracy: 0.053 ; loss: -255422.972
 2023-08-21 11:07:32,068:INFO: Test Metrics: {'accuracy': 0.053094496185092516, 'loss': -255422.97204170914}
+2023-08-21 11:15:54,458:INFO: Starting training for [2] epoch(s)
+2023-08-21 11:15:54,459:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 11:16:15,348:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 11:16:17,403:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 11:16:17,686:INFO: Starting training for [2] epoch(s)
+2023-08-21 11:16:17,686:INFO: Epoch 1/2
+2023-08-21 11:16:17,686:INFO: Training
+2023-08-21 11:17:06,086:INFO: - Train metrics: accuracy: 0.060 ; loss: -12796.761
+2023-08-21 11:17:06,086:INFO: Validation
+2023-08-21 11:17:32,436:INFO: - Train metrics: accuracy: 0.053 ; loss: -45988.314
+2023-08-21 11:17:32,450:INFO: - Found new best accuracy
+2023-08-21 11:17:32,452:INFO: Epoch 2/2
+2023-08-21 11:17:32,452:INFO: Training
+2023-08-21 11:18:18,160:INFO: - Train metrics: accuracy: 0.053 ; loss: -131004.752
+2023-08-21 11:18:18,161:INFO: Validation
+2023-08-21 11:18:43,680:INFO: - Train metrics: accuracy: 0.053 ; loss: -252821.660
+2023-08-21 11:18:43,692:INFO: Testing
+2023-08-21 11:19:10,504:INFO: - Train metrics: accuracy: 0.053 ; loss: -252820.762
+2023-08-21 11:19:10,504:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'loss': -252820.7618607713}
+2023-08-21 11:19:10,505:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 11:19:32,175:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 11:19:34,237:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 11:19:34,301:INFO: Starting training for [2] epoch(s)
+2023-08-21 11:19:34,302:INFO: Epoch 1/2
+2023-08-21 11:19:34,302:INFO: Training
+2023-08-21 11:20:19,657:INFO: - Train metrics: accuracy: 0.047 ; loss: -11873.326
+2023-08-21 11:20:19,657:INFO: Validation
+2023-08-21 11:20:46,270:INFO: - Train metrics: accuracy: 0.053 ; loss: -42630.116
+2023-08-21 11:20:46,284:INFO: - Found new best accuracy
+2023-08-21 11:20:46,286:INFO: Epoch 2/2
+2023-08-21 11:20:46,286:INFO: Training
+2023-08-21 11:21:30,742:INFO: - Train metrics: accuracy: 0.052 ; loss: -121600.348
+2023-08-21 11:21:30,742:INFO: Validation
+2023-08-21 11:21:56,400:INFO: - Train metrics: accuracy: 0.053 ; loss: -234543.241
+2023-08-21 11:21:56,410:INFO: Testing
+2023-08-21 11:22:21,995:INFO: - Train metrics: accuracy: 0.053 ; loss: -234543.938
+2023-08-21 11:22:21,996:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'loss': -234543.93770971373}
+2023-08-21 11:22:21,997:INFO: Ending training for [2] epoch(s)
+2023-08-21 12:25:05,949:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:25:05,949:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:25:27,370:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:25:29,459:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:25:29,731:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:25:29,731:INFO: Epoch 1/2
+2023-08-21 12:25:29,731:INFO: Training
+2023-08-21 12:33:08,765:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:33:08,765:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:33:29,824:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:33:31,876:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:33:32,146:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:33:32,146:INFO: Epoch 1/2
+2023-08-21 12:33:32,146:INFO: Training
+2023-08-21 12:34:19,858:INFO: - Train metrics: accuracy: 0.060 ; ok: 0.301 ; loss: -12796.761
+2023-08-21 12:34:19,858:INFO: Validation
+2023-08-21 12:34:46,695:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.158 ; loss: -45988.314
+2023-08-21 12:34:46,710:INFO: - Found new best accuracy
+2023-08-21 12:34:46,711:INFO: Epoch 2/2
+2023-08-21 12:34:46,712:INFO: Training
+2023-08-21 12:35:30,420:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.217 ; loss: -131004.752
+2023-08-21 12:35:30,420:INFO: Validation
+2023-08-21 12:35:57,549:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -252821.660
+2023-08-21 12:35:57,559:INFO: Testing
+2023-08-21 12:36:24,538:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -252820.762
+2023-08-21 12:36:24,539:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'ok': 0.20972627652673523, 'loss': -252820.7618607713}
+2023-08-21 12:36:24,539:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:36:45,958:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:36:48,046:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:36:48,107:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:36:48,107:INFO: Epoch 1/2
+2023-08-21 12:36:48,107:INFO: Training
+2023-08-21 12:37:33,050:INFO: - Train metrics: accuracy: 0.047 ; ok: 0.266 ; loss: -11873.326
+2023-08-21 12:37:33,050:INFO: Validation
+2023-08-21 12:37:59,596:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -42630.116
+2023-08-21 12:37:59,611:INFO: - Found new best accuracy
+2023-08-21 12:37:59,612:INFO: Epoch 2/2
+2023-08-21 12:37:59,613:INFO: Training
+2023-08-21 12:38:44,002:INFO: - Train metrics: accuracy: 0.052 ; ok: 0.246 ; loss: -121600.348
+2023-08-21 12:38:44,002:INFO: Validation
+2023-08-21 12:39:10,683:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -234543.241
+2023-08-21 12:39:10,693:INFO: Testing
+2023-08-21 12:39:37,428:INFO: - Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -234543.938
+2023-08-21 12:39:37,429:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'ok': 0.26102336437772217, 'loss': -234543.93770971373}
+2023-08-21 12:39:37,430:INFO: Ending training for [2] epoch(s)
+2023-08-21 12:51:14,802:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:51:14,802:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:51:35,983:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:51:38,036:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:51:38,303:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:51:38,303:INFO: Epoch 1/2
+2023-08-21 12:51:38,303:INFO: Training
+2023-08-21 12:52:20,535:INFO: !- Train metrics: accuracy: 0.060 ; ok: 0.301 ; loss: -12796.761 3
+2023-08-21 12:52:20,536:INFO: Validation
+2023-08-21 12:52:47,544:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.158 ; loss: -45988.314 3
+2023-08-21 12:52:47,558:INFO: - Found new best accuracy
+2023-08-21 12:52:47,560:INFO: Epoch 2/2
+2023-08-21 12:52:47,560:INFO: Training
+2023-08-21 12:53:27,976:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.217 ; loss: -131004.752 3
+2023-08-21 12:53:27,977:INFO: Validation
+2023-08-21 12:53:55,927:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -252821.660 3
+2023-08-21 12:53:55,939:INFO: Testing
+2023-08-21 12:54:23,526:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -252820.762 3
+2023-08-21 12:54:23,527:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'ok': 0.20972627652673523, 'loss': -252820.7618607713}
+2023-08-21 12:54:23,528:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:54:45,264:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:54:47,420:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:54:47,487:INFO: Starting training for [2] epoch(s)
+2023-08-21 12:54:47,487:INFO: Epoch 1/2
+2023-08-21 12:54:47,487:INFO: Training
+2023-08-21 12:55:26,731:INFO: !- Train metrics: accuracy: 0.047 ; ok: 0.266 ; loss: -11873.326 3
+2023-08-21 12:55:26,731:INFO: Validation
+2023-08-21 12:55:55,539:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -42630.116 3
+2023-08-21 12:55:55,552:INFO: - Found new best accuracy
+2023-08-21 12:55:55,553:INFO: Epoch 2/2
+2023-08-21 12:55:55,553:INFO: Training
+2023-08-21 12:56:36,004:INFO: !- Train metrics: accuracy: 0.052 ; ok: 0.246 ; loss: -121600.348 3
+2023-08-21 12:56:36,005:INFO: Validation
+2023-08-21 12:57:02,577:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -234543.241 3
+2023-08-21 12:57:02,588:INFO: Testing
+2023-08-21 12:57:29,026:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.261 ; loss: -234543.938 3
+2023-08-21 12:57:29,027:INFO: Test Metrics: {'accuracy': 0.052667346245327894, 'ok': 0.26102336437772217, 'loss': -234543.93770971373}
+2023-08-21 12:57:29,027:INFO: Ending training for [2] epoch(s)
+2023-08-21 12:58:09,977:INFO: Starting training for [10] epoch(s)
+2023-08-21 12:58:09,977:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-21 12:58:30,975:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-21 12:58:32,996:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-21 12:58:33,262:INFO: Starting training for [10] epoch(s)
+2023-08-21 12:58:33,262:INFO: Epoch 1/10
+2023-08-21 12:58:33,262:INFO: Training
+2023-08-21 12:59:14,351:INFO: !- Train metrics: accuracy: 0.063 ; ok: 0.315 ; loss: -13392.429 3
+2023-08-21 12:59:14,352:INFO: Validation
+2023-08-21 12:59:41,567:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.158 ; loss: -48208.258 3
+2023-08-21 12:59:41,583:INFO: - Found new best accuracy
+2023-08-21 12:59:41,584:INFO: Epoch 2/10
+2023-08-21 12:59:41,584:INFO: Training
+2023-08-21 13:00:21,206:INFO: !- Train metrics: accuracy: 0.049 ; ok: 0.254 ; loss: -137265.261 3
+2023-08-21 13:00:21,207:INFO: Validation
+2023-08-21 13:00:48,531:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -264938.067 3
+2023-08-21 13:00:48,543:INFO: Epoch 3/10
+2023-08-21 13:00:48,543:INFO: Training
+2023-08-21 13:01:27,769:INFO: !- Train metrics: accuracy: 0.059 ; ok: 0.216 ; loss: -469071.570 3
+2023-08-21 13:01:27,770:INFO: Validation
+2023-08-21 13:01:54,599:INFO: !- Train metrics: accuracy: 0.053 ; ok: 0.210 ; loss: -735806.117 3
+2023-08-21 13:01:54,609:INFO: Epoch 4/10
+2023-08-21 13:01:54,610:INFO: Training
+2023-08-21 13:02:38,259:INFO: !- Train metrics: accuracy: 0.048 ; ok: 0.161 ; loss: -1106355.333 3
+2023-08-21 13:02:38,260:INFO: Validation
+2023-08-22 09:15:48,550:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:15:48,551:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:16:09,566:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:16:11,603:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:16:11,960:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:16:11,960:INFO: Epoch 1/1
+2023-08-22 09:16:11,961:INFO: Training
+2023-08-22 09:26:25,802:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:26:25,803:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:26:46,840:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:26:48,917:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:26:49,216:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:26:49,216:INFO: Epoch 1/1
+2023-08-22 09:26:49,216:INFO: Training
+2023-08-22 09:31:58,180:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:31:58,181:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:32:18,946:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:32:20,975:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:32:21,253:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:32:21,254:INFO: Epoch 1/1
+2023-08-22 09:32:21,254:INFO: Training
+2023-08-22 09:34:22,731:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:34:22,732:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:34:43,688:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:34:45,725:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:34:46,007:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:34:46,007:INFO: Epoch 1/1
+2023-08-22 09:34:46,008:INFO: Training
+2023-08-22 09:47:15,975:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:47:15,975:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:47:37,170:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:47:39,277:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:47:39,542:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:47:39,542:INFO: Epoch 1/1
+2023-08-22 09:47:39,542:INFO: Training
+2023-08-22 09:49:47,094:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:49:47,094:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:50:08,174:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:50:10,235:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:50:10,497:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:50:10,498:INFO: Epoch 1/1
+2023-08-22 09:50:10,498:INFO: Training
+2023-08-22 09:52:58,000:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:52:58,000:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:53:18,684:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:53:20,691:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:53:20,959:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:53:20,960:INFO: Epoch 1/1
+2023-08-22 09:53:20,960:INFO: Training
+2023-08-22 09:54:05,303:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:54:05,304:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:54:26,323:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:54:28,417:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:54:28,698:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:54:28,698:INFO: Epoch 1/1
+2023-08-22 09:54:28,698:INFO: Training
+2023-08-22 09:54:55,356:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:54:55,356:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 09:55:16,496:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 09:55:18,536:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 09:55:18,806:INFO: Starting training for [1] epoch(s)
+2023-08-22 09:55:18,807:INFO: Epoch 1/1
+2023-08-22 09:55:18,807:INFO: Training
+2023-08-22 10:38:16,149:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:38:16,149:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:38:37,134:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:38:39,164:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:38:39,429:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:38:39,429:INFO: Epoch 1/1
+2023-08-22 10:38:39,429:INFO: Training
+2023-08-22 10:41:08,445:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:41:08,445:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:41:29,197:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:41:31,270:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:41:31,540:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:41:31,540:INFO: Epoch 1/1
+2023-08-22 10:41:31,540:INFO: Training
+2023-08-22 10:53:45,749:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:53:45,750:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:54:06,823:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:54:08,859:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:54:09,132:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:54:09,132:INFO: Epoch 1/1
+2023-08-22 10:54:09,132:INFO: Training
+2023-08-22 10:55:01,820:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:55:01,820:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:55:22,672:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:55:24,712:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:55:24,986:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:55:24,986:INFO: Epoch 1/1
+2023-08-22 10:55:24,986:INFO: Training
+2023-08-22 10:57:12,418:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:57:12,418:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:57:33,562:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:57:35,587:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:57:35,859:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:57:35,859:INFO: Epoch 1/1
+2023-08-22 10:57:35,860:INFO: Training
+2023-08-22 10:58:43,965:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:58:43,965:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 10:59:05,156:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 10:59:07,249:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 10:59:07,522:INFO: Starting training for [1] epoch(s)
+2023-08-22 10:59:07,522:INFO: Epoch 1/1
+2023-08-22 10:59:07,522:INFO: Training
+2023-08-22 11:00:51,195:INFO: !- Train metrics: accuracy: 0.041 ; ok: 0.233 ; loss: 8.392 3
+2023-08-22 11:00:51,196:INFO: Validation
+2023-08-22 11:02:32,859:INFO: !- Train metrics: accuracy: 0.045 ; ok: 0.243 ; loss: 8.390 3
+2023-08-22 11:02:32,873:INFO: - Found new best accuracy
+2023-08-22 11:02:32,875:INFO: Testing
+2023-08-22 11:04:16,716:INFO: !- Train metrics: accuracy: 0.045 ; ok: 0.243 ; loss: 8.390 3
+2023-08-22 11:04:16,717:INFO: Test Metrics: {'accuracy': 0.04478317193340129, 'ok': 0.2433866570907855, 'loss': 8.389587291195163}
+2023-08-22 11:04:16,721:INFO: Starting training for [1] epoch(s)
+2023-08-22 11:04:16,721:INFO: Epoch 1/1
+2023-08-22 11:04:16,721:INFO: Training
+2023-08-22 11:06:49,055:INFO: Starting training for [1] epoch(s)
+2023-08-22 11:06:49,055:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-22 11:07:10,040:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-22 11:07:12,084:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-22 11:07:12,348:INFO: Starting training for [1] epoch(s)
+2023-08-22 11:07:12,348:INFO: Epoch 1/1
+2023-08-22 11:07:12,348:INFO: Training

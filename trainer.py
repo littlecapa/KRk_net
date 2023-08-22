@@ -1,12 +1,9 @@
 """Train the model"""
 
 import logging
-import utils.file_utils
 import numpy as np
-import torch
 from torch.autograd import Variable
 from tqdm import tqdm
-import json
 
 import model.net as net
 import data_loader as data_loader
@@ -83,7 +80,7 @@ class Trainer():
                                         for x in summ]) for metric in summ[0]}
         metrics_string = " ; ".join("{}: {:05.3f}".format(k, v)
                                     for k, v in metrics_mean.items())
-        logging.info("- Train metrics: " + metrics_string)
+        logging.info(f"!- Train metrics: {metrics_string} {len(summ[0])}")
         return metrics_mean, summary_batch
     
     def train_and_evaluate(self, metrics, params, restore):

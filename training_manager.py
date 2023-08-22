@@ -17,14 +17,14 @@ import model.net as net
 import data_loader as data_loader
 from evaluate import evaluate
 from trainer import Trainer
-from loss import loss_fn
+from loss import loss_fn, delta_loss_fn
 from evaluate import evaluate
 
 parser = argparse.ArgumentParser()
 
 class Training_Manager():
     def __init__(self, loss_fn):
-        self.trainer = Trainer(loss_fn = loss_fn)
+        self.trainer = Trainer(loss_fn = delta_loss_fn)
     
     def start_training(self, metrics, training_params, restore):
         logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
@@ -73,7 +73,7 @@ if __name__ == '__main__':
     # Set the logger
     set_logger(os.path.join(params.base_dir, params.log_dir, 'train.log'))
 
-    manager = Training_Manager(loss_fn = loss_fn)
+    manager = Training_Manager(loss_fn = delta_loss_fn)
     # Train the model
     logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
     manager.train_and_evaluate(metrics = metrics, params = params, restore = params.restore)
