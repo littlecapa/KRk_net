@@ -1,52 +1,66 @@
 import json
-import copy
 import logging
-
-class DictWithAttributes(dict):
-    def __getattr__(self, key):
-        if key in self:
-            return self[key]
-        else:
-            raise AttributeError(f"'DictWithAttributes' object has no attribute '{key}'")
-
-    def __setattr__(self, key, value):
-        self[key] = value
+import os
+import shutil
+from itertools import product
+import torch
 
 class Params():
-    """Class that loads all parameters from a json file."""
+    """Class that loads hyperparameters from a json file.
+    """
 
-    def __init__(self, json_path):
+    def __init__(self, json_data = None, json_path = "params.json"):
+      if json_data is None:
         with open(json_path) as f:
             params = json.load(f)
-            self.__dict__.update(params)
+      else:
+        params = json_data
+      self.__dict__.update(params)
+      # Check for Lists
+      # Iterate through the dictionary
+      self.key_list = []
+      self.value_list = []
+      for key, value in params.items():
+        if key.endswith("_list"):
+          # Create a new key without "_list"
+          new_key = key[:-5]  # Remove "_list" from the end of the key
+          self.key_list.append(new_key)
+          self.value_list.append(value)
+      self.combinations = list(enumerate(product(*self.value_list)))
+    
+    def len_param_combinations(self):
+      return len(self.combinations)
 
-    def save(self, json_path):
-        with open(json_path, 'w') as f:
-            json.dump(self.__dict__, f, indent=4)
-            
-    def update(self, json_path):
-        """Loads parameters from json file"""
-        with open(json_path) as f:
-            params = json.load(f)
-            self.__dict__.update(params)
+    def set_param_combination(self, comb_index):
+      for key_index, key in enumerate(self.key_list):
+        self.add_param(key, self.combinations[comb_index][1][key_index])
+
+    def add_param(self, key, value):
+      self.__dict__[key] = value
+
+    def set_opt_loss_info(self,optimizer, loss_fn, info = ""):
+      self.add_param("optimizer", optimizer)
+      self.add_param("loss_fn", loss_fn)
+      self.add_param("info", info)
+
+    def get_param_value(self, key, safe = False):
+      if key in self.__dict__:
+          return self.__dict__[key]
+      else:
+        if safe:
+          raise KeyError(f"Parameter '{key}' not found in Parameters.")
+        else:
+          return ""
 
     @property
     def dict(self):
         """Gives dict-like access to Params instance by `params.dict['learning_rate']"""
         return self.__dict__
-    
-    def get_training_params_dict(self, learning_rate, batch_size, num_epochs, dropout_rate):
-        deep_copied_dict = DictWithAttributes(copy.deepcopy(self.__dict__))
-        print(f"DeepCopy: {deep_copied_dict}")
-        deep_copied_dict.learning_rate = learning_rate
-        deep_copied_dict.batch_size = batch_size
-        deep_copied_dict.num_epochs = num_epochs
-        deep_copied_dict.dropout_rate = dropout_rate
-        return deep_copied_dict
-    
-def get_training_params_csv_str(training_params):
-    output = str(training_params.learning_rate) +";"
-    output += str(training_params.batch_size) +";"
-    output += str(training_params.num_epochs) +";"
-    output += str(training_params.dropout_rate)
-    return output
+
+    stat_params = ["learning_rate", "batch_size", "num_epochs", "dropout_rate", "optimizer", "loss_fn", "info"]
+
+    def get_stats_str(self):
+      out = ""
+      for p in self.stat_params:
+        out += f"{self.get_param_value(p)};"
+      return out

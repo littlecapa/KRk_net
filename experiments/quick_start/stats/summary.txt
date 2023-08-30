@@ -1,0 +1,530 @@
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000001F3E78A8EB0>>
+Time: 23-08-2023 01:12:47
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF30D3CD60>>
+Time: 23-08-2023 08:44:01
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF5700C160>>
+Time: 23-08-2023 09:59:44
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF582CC6D0>>
+Time: 23-08-2023 11:16:09
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF5700E740>>
+Time: 23-08-2023 11:23:35
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3D008310>>
+Time: 23-08-2023 11:31:07
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3D008E80>>
+Time: 23-08-2023 11:38:38
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF41C24880>>
+Time: 23-08-2023 12:54:55
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF41C27D00>>
+Time: 23-08-2023 14:11:34
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3F802560>>
+Time: 23-08-2023 15:28:09
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3F800730>>
+Time: 23-08-2023 15:35:36
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3F802830>>
+Time: 23-08-2023 15:43:08
+<bound method Summary.get_all of <utils.stats_utils.Summary object at 0x000002AF3F802E00>>
+Time: 23-08-2023 15:50:39
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.028539767488837242}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.01522549893707037}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.6980236768722534}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0010564705589786172}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.1735917627811432}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0014429405564442277}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.1568276286125183}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 4.410646579344757e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.019450878724455833}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 6.6756979322235566e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0011526852613314986}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 7.510157047363464e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.000598251644987613}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 9.536697689327411e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.01116233505308628}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 4.887569048150908e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.00044526674901135266}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 2.50339189733495e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0011079132091253996}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 1.4305104514278355e-06}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 7.986990567587782e-06}
+
+Time: 23-08-2023 18:54:29
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.27009788155555725}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.005575463175773621}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.00289556966163218}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0033388365991413593}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.20027373731136322}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0010642108973115683}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.10108102113008499}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00029762129997834563}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 1.5639631748199463}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0003586364327929914}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.09546808898448944}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00015770144818816334}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 1.6689286894688848e-06}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0014607959892600775}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.005668161902576685}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00010680581908673048}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 7.986990567587782e-06}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00011622230522334576}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0036971091758459806}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0010257464600726962}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 2.5748875486897305e-05}
+
+Time: 23-08-2023 20:38:47
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.07761728763580322}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.007253739051520824}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.23835839331150055}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.000520570669323206}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.005031661130487919}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0001641377166379243}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.001383777242153883}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0003541081096045673}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.003143015317618847}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0002899941464420408}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.033690955489873886}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.000676998752169311}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0002157455455744639}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 4.8636207793606445e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.020827867090702057}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 8.761498611420393e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.11937345564365387}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 4.6967357775429264e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.004867371171712875}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 9.77468371274881e-05}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 5.8530047681415454e-05}
+
+Time: 23-08-2023 22:22:24
+Summary:
+Stage: Training{"accuracy": 0.5625, "ok": 0.875, "loss": 1.4781314134597778}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.946445643901825}
+Stage: Training{"accuracy": 0.625, "ok": 0.9375, "loss": 1.2404155731201172}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.8368151783943176}
+Stage: Training{"accuracy": 0.46875, "ok": 0.875, "loss": 1.318149447441101}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.6925984025001526}
+Stage: Training{"accuracy": 0.78125, "ok": 1.0, "loss": 0.7050499320030212}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.5886887311935425}
+Stage: Training{"accuracy": 0.6875, "ok": 0.9375, "loss": 0.8115417957305908}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.45084047317504883}
+Stage: Training{"accuracy": 0.84375, "ok": 1.0, "loss": 0.4346791207790375}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.3719562590122223}
+Stage: Training{"accuracy": 0.78125, "ok": 0.9375, "loss": 0.7112034559249878}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.3198609948158264}
+Stage: Training{"accuracy": 0.84375, "ok": 0.9375, "loss": 0.4847709536552429}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.2493705004453659}
+Stage: Training{"accuracy": 0.84375, "ok": 1.0, "loss": 0.5762982964515686}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.19813582301139832}
+Stage: Training{"accuracy": 0.75, "ok": 0.90625, "loss": 0.7418835163116455}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.1596977859735489}
+Stage: Testing{"accuracy": 0.8518518518518519, "ok": 1.0, "loss": 0.3772514760494232}
+
+Time: 23-08-2023 22:30:26
+Summary:
+Stage: Training{"accuracy": 0.40625, "ok": 0.75, "loss": 1.6483750343322754}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.9689270853996277}
+Stage: Training{"accuracy": 0.5, "ok": 0.84375, "loss": 1.5039880275726318}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.8630674481391907}
+Stage: Training{"accuracy": 0.46875, "ok": 0.75, "loss": 1.3264087438583374}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.7101667523384094}
+Stage: Training{"accuracy": 0.65625, "ok": 0.9375, "loss": 1.0880837440490723}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.6032395362854004}
+Stage: Training{"accuracy": 0.78125, "ok": 0.90625, "loss": 0.9091750979423523}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.4938806891441345}
+Stage: Training{"accuracy": 0.75, "ok": 0.9375, "loss": 0.7442656755447388}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.3638870120048523}
+Stage: Training{"accuracy": 0.8125, "ok": 0.96875, "loss": 0.556568443775177}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.283710777759552}
+Stage: Training{"accuracy": 0.71875, "ok": 0.9375, "loss": 0.8137596845626831}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.194134920835495}
+Stage: Training{"accuracy": 0.875, "ok": 0.96875, "loss": 0.3424853980541229}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.16393019258975983}
+Stage: Training{"accuracy": 0.75, "ok": 0.9375, "loss": 0.7009187936782837}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.11819387972354889}
+Stage: Testing{"accuracy": 0.8888888888888888, "ok": 1.0, "loss": 0.40193435549736023}
+
+Time: 23-08-2023 22:38:32
+Summary:
+Stage: Training{"accuracy": 0.40625, "ok": 0.6875, "loss": 1.665809988975525}
+Stage: Validation{"accuracy": 0.6428571428571429, "ok": 0.8571428571428571, "loss": 1.0860974788665771}
+Stage: Training{"accuracy": 0.40625, "ok": 0.875, "loss": 1.7906697988510132}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.8977627158164978}
+Stage: Training{"accuracy": 0.5625, "ok": 0.9375, "loss": 1.2870941162109375}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.8251156210899353}
+Stage: Training{"accuracy": 0.5625, "ok": 0.9375, "loss": 1.2148264646530151}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.7255910038948059}
+Stage: Training{"accuracy": 0.59375, "ok": 0.875, "loss": 1.3507133722305298}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.6585235595703125}
+Stage: Training{"accuracy": 0.5625, "ok": 0.8125, "loss": 1.5377140045166016}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.6031001806259155}
+Stage: Training{"accuracy": 0.40625, "ok": 0.84375, "loss": 1.6077320575714111}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.5249437093734741}
+Stage: Training{"accuracy": 0.625, "ok": 0.9375, "loss": 1.067453145980835}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.4415009915828705}
+Stage: Training{"accuracy": 0.5625, "ok": 0.9375, "loss": 0.9737365245819092}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.39622002840042114}
+Stage: Training{"accuracy": 0.84375, "ok": 1.0, "loss": 0.6380578279495239}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.34191927313804626}
+Stage: Testing{"accuracy": 0.7777777777777778, "ok": 0.9629629629629629, "loss": 0.7333130240440369}
+
+Time: 23-08-2023 22:46:36
+Summary:
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.99837064743042}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.2809317111968994}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.479017496109009}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.731104850769043}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.970088005065918}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.6787662506103516}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.451125383377075}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.829183578491211}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.4212591648101807}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.6782469749450684}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.1614277362823486}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.3572824001312256}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 4.023645401000977}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.8019304275512695}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 2.39032244682312}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.4058589935302734}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 4.621316432952881}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.265352487564087}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.1731784343719482}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.05055832862854}
+Stage: Testing{"accuracy": 0.0, "ok": 1.0, "loss": 3.05055832862854}
+
+Time: 24-08-2023 00:45:10
+Summary:
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 2.863356828689575}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.132612705230713}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 3.2186484336853027}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.9083573818206787}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.877927303314209}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.458101511001587}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 3.853041172027588}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.5702309608459473}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 3.3748879432678223}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.180868148803711}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.9119434356689453}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.711101770401001}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 4.223151206970215}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.2037606239318848}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.5283751487731934}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.632946491241455}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.6016359329223633}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.1791622638702393}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.474536418914795}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.874037027359009}
+Stage: Testing{"accuracy": 0.0, "ok": 0.0, "loss": 3.874037027359009}
+
+Time: 24-08-2023 02:49:14
+Summary:
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 3.9367759227752686}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.365859270095825}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 3.3319859504699707}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.9564898014068604}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.5394020080566406}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.5675418376922607}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.9739811420440674}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.1984000205993652}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.874255657196045}
+Stage: Validation{"accuracy": 0.0, "ok": 1.0, "loss": 3.201444149017334}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 4.427283763885498}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.1686108112335205}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 2.633241653442383}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.620864152908325}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 3.229879856109619}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.020874261856079}
+Stage: Training{"accuracy": 0.0, "ok": 0.0, "loss": 4.020878314971924}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 2.5665879249572754}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 2.8651082515716553}
+Stage: Validation{"accuracy": 0.0, "ok": 0.0, "loss": 3.286682367324829}
+Stage: Testing{"accuracy": 0.0, "ok": 0.0, "loss": 3.286682367324829}
+
+Time: 24-08-2023 04:53:19
+Summary:
+Stage: Training{"accuracy": 0.0625, "ok": 0.21875, "loss": 3.146132707595825}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.0384678840637207}
+Stage: Training{"accuracy": 0.0, "ok": 0.21875, "loss": 3.1773879528045654}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.42857142857142855, "loss": 2.9824841022491455}
+Stage: Training{"accuracy": 0.09375, "ok": 0.4375, "loss": 3.164111614227295}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.0073564052581787}
+Stage: Training{"accuracy": 0.15625, "ok": 0.5625, "loss": 3.0649218559265137}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 3.0410027503967285}
+Stage: Training{"accuracy": 0.0625, "ok": 0.21875, "loss": 3.2975142002105713}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.0448384284973145}
+Stage: Training{"accuracy": 0.0625, "ok": 0.40625, "loss": 3.21401047706604}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.0725419521331787}
+Stage: Training{"accuracy": 0.03125, "ok": 0.34375, "loss": 3.2062435150146484}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.067488431930542}
+Stage: Training{"accuracy": 0.03125, "ok": 0.09375, "loss": 3.321122407913208}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.0317511558532715}
+Stage: Training{"accuracy": 0.0625, "ok": 0.25, "loss": 3.2723655700683594}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 3.0412638187408447}
+Stage: Training{"accuracy": 0.03125, "ok": 0.25, "loss": 3.140079975128174}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.21428571428571427, "loss": 2.987104654312134}
+Stage: Testing{"accuracy": 0.037037037037037035, "ok": 0.1111111111111111, "loss": 3.497001886367798}
+
+Time: 24-08-2023 05:02:03
+Summary:
+Stage: Training{"accuracy": 0.0, "ok": 0.09375, "loss": 3.231910228729248}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.2857142857142857, "loss": 3.0436794757843018}
+Stage: Training{"accuracy": 0.0625, "ok": 0.28125, "loss": 3.284433603286743}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.0381407737731934}
+Stage: Training{"accuracy": 0.0, "ok": 0.4375, "loss": 3.174041509628296}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 2.9937140941619873}
+Stage: Training{"accuracy": 0.0625, "ok": 0.3125, "loss": 3.2178146839141846}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 2.9810078144073486}
+Stage: Training{"accuracy": 0.03125, "ok": 0.21875, "loss": 3.30348801612854}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 3.0477397441864014}
+Stage: Training{"accuracy": 0.0, "ok": 0.375, "loss": 3.175537109375}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 3.01192307472229}
+Stage: Training{"accuracy": 0.0, "ok": 0.1875, "loss": 3.357633590698242}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.5, "loss": 3.025615930557251}
+Stage: Training{"accuracy": 0.0, "ok": 0.25, "loss": 3.102978229522705}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.21428571428571427, "loss": 3.0992751121520996}
+Stage: Training{"accuracy": 0.15625, "ok": 0.5625, "loss": 3.0690555572509766}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.21428571428571427, "loss": 3.03535532951355}
+Stage: Training{"accuracy": 0.0625, "ok": 0.5, "loss": 3.214108943939209}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.0638482570648193}
+Stage: Testing{"accuracy": 0.037037037037037035, "ok": 0.18518518518518517, "loss": 3.473327875137329}
+
+Time: 24-08-2023 05:11:00
+Summary:
+Stage: Training{"accuracy": 0.0, "ok": 0.1875, "loss": 3.318753719329834}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.054103374481201}
+Stage: Training{"accuracy": 0.0625, "ok": 0.15625, "loss": 3.234992504119873}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.021667242050171}
+Stage: Training{"accuracy": 0.03125, "ok": 0.125, "loss": 3.3133764266967773}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.0593624114990234}
+Stage: Training{"accuracy": 0.03125, "ok": 0.1875, "loss": 3.2684476375579834}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.000572681427002}
+Stage: Training{"accuracy": 0.0, "ok": 0.3125, "loss": 3.360757350921631}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.42857142857142855, "loss": 3.073420286178589}
+Stage: Training{"accuracy": 0.0, "ok": 0.3125, "loss": 3.2383170127868652}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.023499011993408}
+Stage: Training{"accuracy": 0.03125, "ok": 0.28125, "loss": 3.444176197052002}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.21428571428571427, "loss": 3.0096030235290527}
+Stage: Training{"accuracy": 0.0625, "ok": 0.34375, "loss": 3.2179582118988037}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.019662380218506}
+Stage: Training{"accuracy": 0.0625, "ok": 0.4375, "loss": 3.1884706020355225}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.21428571428571427, "loss": 3.0574705600738525}
+Stage: Training{"accuracy": 0.0625, "ok": 0.34375, "loss": 3.212310314178467}
+Stage: Validation{"accuracy": 0.07142857142857142, "ok": 0.35714285714285715, "loss": 3.0401530265808105}
+Stage: Testing{"accuracy": 0.037037037037037035, "ok": 0.25925925925925924, "loss": 3.4549808502197266}
+
+Time: 24-08-2023 05:20:01
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.6408037543296814}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.42592090368270874}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 1.8813422918319702}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.18982896208763123}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 1.513798475265503}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.1427183896303177}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 1.629927158355713}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.12346348911523819}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.7263961434364319}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.06454617530107498}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.36194556951522827}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.05537891760468483}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.15570573508739471}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.030099930241703987}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.4343234896659851}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.02924380451440811}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.515468180179596}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.01693643070757389}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 1.4283561706542969}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.014449482783675194}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 0.017326772212982178}
+
+Time: 24-08-2023 11:46:55
+Summary:
+Stage: Training{"accuracy": 0.0625, "ok": 0.375, "loss": 2.8012545108795166}
+Stage: Validation{"accuracy": 0.2857142857142857, "ok": 0.6428571428571429, "loss": 2.1107170581817627}
+Stage: Training{"accuracy": 0.1875, "ok": 0.5625, "loss": 2.2080748081207275}
+Stage: Validation{"accuracy": 0.5714285714285714, "ok": 0.8571428571428571, "loss": 1.4662622213363647}
+Stage: Training{"accuracy": 0.625, "ok": 0.75, "loss": 1.499691367149353}
+Stage: Validation{"accuracy": 0.5714285714285714, "ok": 0.7857142857142857, "loss": 1.2146669626235962}
+Stage: Training{"accuracy": 0.375, "ok": 0.875, "loss": 1.683744192123413}
+Stage: Validation{"accuracy": 0.6428571428571429, "ok": 0.7857142857142857, "loss": 1.115925908088684}
+Stage: Training{"accuracy": 0.5, "ok": 0.875, "loss": 1.4294222593307495}
+Stage: Validation{"accuracy": 0.6428571428571429, "ok": 0.7857142857142857, "loss": 1.0627833604812622}
+Stage: Training{"accuracy": 0.4375, "ok": 0.875, "loss": 1.142715573310852}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 1.0106464624404907}
+Stage: Training{"accuracy": 0.4375, "ok": 0.875, "loss": 1.4861708879470825}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 1.0, "loss": 0.9828109741210938}
+Stage: Training{"accuracy": 0.5, "ok": 0.8125, "loss": 1.414452314376831}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.9610492587089539}
+Stage: Training{"accuracy": 0.4375, "ok": 0.8125, "loss": 1.483788251876831}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.9415140151977539}
+Stage: Training{"accuracy": 0.8125, "ok": 0.8125, "loss": 0.9797112345695496}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.9337853193283081}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 0.33362671732902527}
+
+Time: 24-08-2023 12:00:28
+Summary:
+Stage: Training{"accuracy": 0.109375, "ok": 0.234375, "loss": 3.3360486030578613}
+Stage: Validation{"accuracy": 0.14285714285714285, "ok": 0.5, "loss": 2.993016004562378}
+Stage: Training{"accuracy": 0.25, "ok": 0.46875, "loss": 2.8410744667053223}
+Stage: Validation{"accuracy": 0.42857142857142855, "ok": 0.6428571428571429, "loss": 2.328336477279663}
+Stage: Training{"accuracy": 0.25, "ok": 0.578125, "loss": 2.3405210971832275}
+Stage: Validation{"accuracy": 0.42857142857142855, "ok": 0.7857142857142857, "loss": 1.8405067920684814}
+Stage: Training{"accuracy": 0.4375, "ok": 0.828125, "loss": 1.9181486368179321}
+Stage: Validation{"accuracy": 0.5, "ok": 0.7857142857142857, "loss": 1.5444637537002563}
+Stage: Training{"accuracy": 0.40625, "ok": 0.828125, "loss": 1.8712660074234009}
+Stage: Validation{"accuracy": 0.5714285714285714, "ok": 0.7857142857142857, "loss": 1.3614938259124756}
+Stage: Training{"accuracy": 0.421875, "ok": 0.78125, "loss": 1.711330771446228}
+Stage: Validation{"accuracy": 0.5714285714285714, "ok": 0.7857142857142857, "loss": 1.2434278726577759}
+Stage: Training{"accuracy": 0.328125, "ok": 0.828125, "loss": 1.6417198181152344}
+Stage: Validation{"accuracy": 0.5714285714285714, "ok": 0.7857142857142857, "loss": 1.176969289779663}
+Stage: Training{"accuracy": 0.40625, "ok": 0.8125, "loss": 1.8055487871170044}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 0.9285714285714286, "loss": 1.1299588680267334}
+Stage: Training{"accuracy": 0.46875, "ok": 0.90625, "loss": 1.531440258026123}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 0.9285714285714286, "loss": 1.0936750173568726}
+Stage: Training{"accuracy": 0.34375, "ok": 0.78125, "loss": 1.812686562538147}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 0.9285714285714286, "loss": 1.080399513244629}
+Stage: Testing{"accuracy": 0.5925925925925926, "ok": 0.8888888888888888, "loss": 1.4826565980911255}
+
+Time: 24-08-2023 12:07:40
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.37197721004486084}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.01241785753518343}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.042928196489810944}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.002594559220597148}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.04802234470844269}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 5.8530047681415454e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0027747959829866886}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 3.6954811548639555e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.35396361351013184}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 3.0517112463712692e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0071111200377345085}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0002153879904653877}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.009876550175249577}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00020275443966966122}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.009043801575899124}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 4.0411134250462055e-05}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.1862444281578064}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 9.298280929215252e-06}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.24880491197109222}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 7.295342220459133e-05}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 4.887569048150908e-06}
+
+Time: 24-08-2023 14:25:47
+Summary:
+Stage: Training{"accuracy": 0.5, "ok": 0.6875, "loss": 1.5770938396453857}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.9131847023963928}
+Stage: Training{"accuracy": 0.5, "ok": 0.8125, "loss": 1.3101969957351685}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.7213326692581177}
+Stage: Training{"accuracy": 0.625, "ok": 0.9375, "loss": 1.2103707790374756}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.5535788536071777}
+Stage: Training{"accuracy": 0.6875, "ok": 0.875, "loss": 1.1495689153671265}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.39468079805374146}
+Stage: Training{"accuracy": 0.875, "ok": 1.0, "loss": 0.6537798643112183}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.2805815041065216}
+Stage: Training{"accuracy": 0.8125, "ok": 1.0, "loss": 0.5135706663131714}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.1550811529159546}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.327124685049057}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.09352392703294754}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.23540325462818146}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.07677857577800751}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.1579824984073639}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0574321523308754}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.47518372535705566}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.034236203879117966}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 0.0037448504008352757}
+
+Time: 24-08-2023 14:39:28
+Summary:
+Stage: Training{"accuracy": 0.4375, "ok": 0.8125, "loss": 1.6258231401443481}
+Stage: Validation{"accuracy": 0.7142857142857143, "ok": 0.9285714285714286, "loss": 1.00005042552948}
+Stage: Training{"accuracy": 0.546875, "ok": 0.84375, "loss": 1.3323142528533936}
+Stage: Validation{"accuracy": 0.6428571428571429, "ok": 1.0, "loss": 0.9270101189613342}
+Stage: Training{"accuracy": 0.546875, "ok": 0.890625, "loss": 1.365357756614685}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.831206738948822}
+Stage: Training{"accuracy": 0.59375, "ok": 0.8125, "loss": 1.1525168418884277}
+Stage: Validation{"accuracy": 0.7857142857142857, "ok": 1.0, "loss": 0.7187081575393677}
+Stage: Training{"accuracy": 0.53125, "ok": 0.890625, "loss": 1.3367756605148315}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.6087333559989929}
+Stage: Training{"accuracy": 0.625, "ok": 0.90625, "loss": 1.1586905717849731}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.5127475261688232}
+Stage: Training{"accuracy": 0.734375, "ok": 0.921875, "loss": 0.9252957105636597}
+Stage: Validation{"accuracy": 0.8571428571428571, "ok": 1.0, "loss": 0.4015559256076813}
+Stage: Training{"accuracy": 0.578125, "ok": 0.96875, "loss": 1.1679773330688477}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.2968218922615051}
+Stage: Training{"accuracy": 0.6875, "ok": 0.90625, "loss": 1.062129020690918}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.22241102159023285}
+Stage: Training{"accuracy": 0.78125, "ok": 0.9375, "loss": 0.746314525604248}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.1736452728509903}
+Stage: Testing{"accuracy": 0.8148148148148148, "ok": 1.0, "loss": 0.5211688280105591}
+
+Time: 24-08-2023 14:46:44
+Summary:
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.007496796082705259}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 1.1920928244535389e-07}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 5.960462772236497e-07}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 0.0, "ok": 1.0, "loss": 0.9387274980545044}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 0.0}
+
+Time: 24-08-2023 17:03:19
+Summary:
+Stage: Training{"accuracy": 0.875, "ok": 1.0, "loss": 0.37042713165283203}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.025427279993891716}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.22158394753932953}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.007994230836629868}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.21389465034008026}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.004329364281147718}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.2131427526473999}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0018926130142062902}
+Stage: Training{"accuracy": 0.75, "ok": 1.0, "loss": 0.4323769211769104}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0005599947762675583}
+Stage: Training{"accuracy": 0.875, "ok": 1.0, "loss": 0.4847358465194702}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.000253496429650113}
+Stage: Training{"accuracy": 1.0, "ok": 1.0, "loss": 0.025168614462018013}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0009506515925750136}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.10469458252191544}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.00015621604688931257}
+Stage: Training{"accuracy": 0.875, "ok": 1.0, "loss": 0.411846399307251}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 8.10796846053563e-05}
+Stage: Training{"accuracy": 0.8125, "ok": 1.0, "loss": 0.28656330704689026}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0006027064519003034}
+Stage: Testing{"accuracy": 1.0, "ok": 1.0, "loss": 2.4208367904066108e-05}
+
+Time: 24-08-2023 17:16:56
+Summary:
+Stage: Training{"accuracy": 0.734375, "ok": 0.953125, "loss": 0.8633679151535034}
+Stage: Validation{"accuracy": 0.9285714285714286, "ok": 1.0, "loss": 0.2369457334280014}
+Stage: Training{"accuracy": 0.859375, "ok": 0.96875, "loss": 0.4774826765060425}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.018070224672555923}
+Stage: Training{"accuracy": 0.90625, "ok": 1.0, "loss": 0.23714062571525574}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.007227079011499882}
+Stage: Training{"accuracy": 0.90625, "ok": 0.984375, "loss": 0.2631233036518097}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.010866672731935978}
+Stage: Training{"accuracy": 0.921875, "ok": 1.0, "loss": 0.21824434399604797}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0063986508175730705}
+Stage: Training{"accuracy": 0.953125, "ok": 1.0, "loss": 0.16491162776947021}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.003073241328820586}
+Stage: Training{"accuracy": 0.96875, "ok": 1.0, "loss": 0.151632159948349}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0024481643922626972}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.16454213857650757}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.012060234323143959}
+Stage: Training{"accuracy": 0.9375, "ok": 0.984375, "loss": 0.21820643544197083}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0006056790007278323}
+Stage: Training{"accuracy": 0.9375, "ok": 1.0, "loss": 0.19839420914649963}
+Stage: Validation{"accuracy": 1.0, "ok": 1.0, "loss": 0.0006641795625910163}
+Stage: Testing{"accuracy": 0.9629629629629629, "ok": 1.0, "loss": 0.09651360660791397}
+
+Time: 24-08-2023 17:24:12

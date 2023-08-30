@@ -24,33 +24,29 @@ parser = argparse.ArgumentParser()
 
 class Training_Manager():
     def __init__(self, loss_fn):
-        self.trainer = Trainer(loss_fn = delta_loss_fn)
+        self.trainer = Trainer(loss_fn = loss_fn)
     
-    def start_training(self, metrics, training_params, restore):
+    def start_training(self, metrics, params, restore):
         logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
-        result = self.trainer.train_and_evaluate(metrics = metrics, params = training_params, restore = restore)
+        result = self.trainer.train_and_evaluate(metrics = metrics, params = params, restore = restore)
         return result
 
     def train_and_evaluate(self, metrics, params, restore):
-        for dropout_rate in params.dropout_rate:
-            for batch_size in params.batch_size:
-                # fetch dataloaders
-                dataloaders = data_loader.fetch_dataloader(
-                    ['train', 'val', 'test'], batch_size = batch_size, params = params)
-                train_dl = dataloaders['train']
-                val_dl = dataloaders['val']
-                test_dl = dataloaders['test']
-                self.trainer.set_loader(train_dataloader = train_dl, val_dataloader = val_dl, test_dataloader = test_dl)
-                for learning_rate in params.learning_rate:                  
-                    for num_epochs in params.num_epochs:
-                        model = net.KRk_Net_ChatGPT(dropout_rate, params).cuda() if params.cuda else net.KRk_Net_ChatGPT(dropout_rate, params)
-                        optimizer = optim.Adam(model.parameters(), learning_rate)
-                        self.trainer.set_optimizer(optimizer)
-                        self.trainer.set_model(model)
-                        training_params = params.get_training_params_dict(learning_rate, batch_size, num_epochs, dropout_rate)
-                        results, summary = self.start_training(metrics, training_params, restore)
-                        save_stats(training_params, results, summary, optimizer = "Adam", loss_fn = "loss.py")
-
+        for i in range(params.len_param_combinations()):
+            params.set_param_combination(i)
+            dataloaders = data_loader.fetch_dataloader(
+                    ['train', 'val', 'test'], batch_size = params.batch_size, params = params)
+            train_dl = dataloaders['train']
+            val_dl = dataloaders['val']
+            test_dl = dataloaders['test']
+            self.trainer.set_loader(train_dataloader = train_dl, val_dataloader = val_dl, test_dataloader = test_dl)
+            model = net.KRk_Net_ChatGPT(params).cuda() if params.cuda else net.KRk_Net_ChatGPT(params)
+            optimizer = optim.Adam(model.parameters(), params.learning_rate)
+            self.trainer.set_optimizer(optimizer)
+            self.trainer.set_model(model)
+            results = self.start_training(metrics, params, restore)
+            save_stats(params, results)
+            
 if __name__ == '__main__':
 
     # Load the parameters from json file
@@ -60,7 +56,8 @@ if __name__ == '__main__':
     json_path = os.path.join(args.experiment_dir, 'params.json')
     assert os.path.isfile(
         json_path), "No json configuration file found at {}".format(json_path)
-    params = Params(json_path)
+    params = Params(json_data = None, json_path = json_path)
+    params.set_opt_loss_info(optimizer = "Adam", loss_fn = loss_fn)
 
     # use GPU if available
     params.cuda = torch.cuda.is_available()
@@ -73,8 +70,8 @@ if __name__ == '__main__':
     # Set the logger
     set_logger(os.path.join(params.base_dir, params.log_dir, 'train.log'))
 
-    manager = Training_Manager(loss_fn = delta_loss_fn)
+    manager = Training_Manager(loss_fn = torch.nn.CrossEntropyLoss())
     # Train the model
-    logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
+    logging.info("Starting training")
     manager.train_and_evaluate(metrics = metrics, params = params, restore = params.restore)
-    logging.info("Ending training for {} epoch(s)".format(params.num_epochs))
+    logging.info("Ending training")

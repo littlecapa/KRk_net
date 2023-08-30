@@ -121,3 +121,14 @@ def write_line_to_csv_file(base_dir, stats_dir, filename, line):
         raise("File doesn't exist {}".format(filename))
     with open(filename, 'a') as f:
         f.write(f"{timestamp_string};{line}\n")
+
+def write_summary(base_dir, stats_dir, filename, summary):
+    # Get the current timestamp as a datetime object
+    current_time = datetime.now()
+    # Convert the datetime object to a string in a specific format
+    filename = os.path.join(base_dir, stats_dir, filename)
+    if not os.path.exists(filename):
+        raise("File doesn't exist {}".format(filename))
+    with open(filename, 'a') as f:
+        f.write(f"{summary}\n")
+        f.write(f"Time: {current_time.strftime('%d-%m-%Y %H:%M:%S')}\n")

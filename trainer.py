@@ -36,14 +36,15 @@ class Trainer():
         loss_avg = RunningAverage()
 
         # Use tqdm for progress bar
-        with tqdm(total=len(self.train_dataloader)) as t:
+        with tqdm(total=len(loader)) as t:
             for i, (input_batch, labels_batch) in enumerate(loader):
                 # move to GPU if available
                 if params.cuda:
                     input_batch, labels_batch = input_batch.cuda(
                         non_blocking=True), labels_batch.cuda(non_blocking=True)
                 # convert to torch Variables
-                input_batch, labels_batch = Variable(input_batch), Variable(labels_batch)
+                # According to ChatGPT not necessary any more
+                # input_batch, labels_batch = Variable(input_batch), Variable(labels_batch)
 
                 # compute model output and loss
                 output_batch = self.model(input_batch)
@@ -101,7 +102,7 @@ class Trainer():
             logging.info("Restoring parameters from ")
             load_checkpoint(model = self.model, base_dir = params.base_dir, checkpoint_dir = params.checkpoint_dir, optimizer = self.optimizer)
         best_val_acc = 0.0
-        summary_collector = Summary()
+        summary_collector = Summary(params)
 
         for epoch in range(params.num_epochs):
             # Run one epoch
@@ -114,7 +115,7 @@ class Trainer():
 
             # Evaluate for one epoch on validation set
             logging.info("Validation")
-            val_metrics, summary = self.run_model(loss_fn = self.loss_fn, loader = self.train_dataloader, metrics = metrics, params = params, training = False)
+            val_metrics, summary = self.run_model(loss_fn = self.loss_fn, loader = self.val_dataloader, metrics = metrics, params = params, training = False)
             summary_collector.add(summary, "Validation")
 
             val_acc = val_metrics['accuracy']
@@ -143,7 +144,8 @@ class Trainer():
         # Final Evaluation Test
         #
         logging.info("Testing")
-        test_metrics, summary = self.run_model(loss_fn = self.loss_fn, loader = self.train_dataloader, metrics = metrics, params = params, training = False)
+        test_metrics, summary = self.run_model(loss_fn = self.loss_fn, loader = self.test_dataloader, metrics = metrics, params = params, training = False)
         summary_collector.add(summary, "Testing")
         logging.info(f"Test Metrics: {test_metrics}")
-        return test_metrics, summary_collector.get_all()
+        summary_collector.save()
+        return test_metrics

@@ -1,6 +1,4 @@
 """Defines the neural network, losss function and metrics"""
-
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -9,11 +7,11 @@ import logging
 
 class KRk_Net_ChatGPT(nn.Module):
     
-    def __init__(self, dropout_rate, params):
+    def __init__(self, params):
         super(KRk_Net_ChatGPT, self).__init__()
 
         self.num_channels = params.num_channels
-        self.dropout_rate = dropout_rate
+        self.dropout_rate = params.dropout_rate
 
         self.fc1 = nn.Linear(self.num_channels, 256)  # Input layer to hidden layer
         self.fc2 = nn.Linear(256, 128)  # Hidden layer to hidden layer
@@ -30,6 +28,7 @@ class KRk_Net_ChatGPT(nn.Module):
         if training_with_dropout:
             x = self.dropout(x)
         x = self.fc3(x)
+        x = F.log_softmax(x, dim=1)
         return x
     
 class KRk_Net_Bard(nn.Module):

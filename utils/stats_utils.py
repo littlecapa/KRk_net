@@ -1,7 +1,7 @@
 import logging
 import json
-from utils.param_utils import get_training_params_csv_str
-from utils.file_utils import write_line_to_csv_file
+from utils.param_utils import Params
+from utils.file_utils import write_line_to_csv_file, write_summary
 from utils.metrics_utils import metrics_to_csv_string
 
 class RunningAverage():
@@ -27,8 +27,10 @@ class RunningAverage():
         return self.total/float(self.steps)
     
 class Summary():
-    def __init__(self):
+    def __init__(self, params):
         self.summary = "Summary:" + "\n"
+        self.base_dir = params.base_dir
+        self.stats_dir = params.stats_dir
 
     def add(self, summary, stage = "Training"):
         self.add_stage(stage)
@@ -39,10 +41,15 @@ class Summary():
     
     def get_all(self):
         return self.summary
+    
+    DEFAULT_SUMMARY_FILE = "summary.txt"
+    def save(self):
+        write_summary(self.base_dir, self.stats_dir, self.DEFAULT_SUMMARY_FILE, self.get_all())
+        self.summary = "Summary:" + "\n"
+
 
 DEFAULT_STATS_FILE = "stats.csv"   
-def save_stats(training_params, results, summary, optimizer, loss_fn):
-    line = get_training_params_csv_str(training_params) + ";"
-    line += optimizer + ";" + loss_fn + ";"
+def save_stats(params, results):
+    line = params.get_stats_str()
     line += metrics_to_csv_string(results)
-    write_line_to_csv_file(training_params.base_dir, training_params.stats_dir, DEFAULT_STATS_FILE, line)
+    write_line_to_csv_file(params.base_dir, params.stats_dir, DEFAULT_STATS_FILE, line)
