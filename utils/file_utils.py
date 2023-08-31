@@ -100,10 +100,10 @@ def load_checkpoint(model, base_dir, checkpoint_dir, optimizer=None, restore_fil
         model: (torch.nn.Module) model for which the parameters are loaded
         optimizer: (torch.optim) optional: resume optimizer from checkpoint
     """
-    checkpoint = os.path.join(base_dir, checkpoint_dir, restore_file)
-    if not os.path.exists(checkpoint_dir):
-        raise("File doesn't exist {}".format(checkpoint_dir))
-    checkpoint = torch.load(checkpoint_dir)
+    checkpoint_file = os.path.join(base_dir, checkpoint_dir, restore_file)
+    if not os.path.exists(checkpoint_file):
+        raise("File doesn't exist {}".format(checkpoint_file))
+    checkpoint = torch.load(checkpoint_file)
     model.load_state_dict(checkpoint['state_dict'])
 
     if optimizer:

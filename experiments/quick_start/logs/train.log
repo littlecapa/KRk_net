@@ -4267,3 +4267,173 @@
 2023-08-24 17:24:12,051:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
 2023-08-24 17:24:12,051:INFO: Test Metrics: {'accuracy': 0.9629629629629629, 'ok': 1.0, 'loss': 0.09651360660791397}
 2023-08-24 17:24:12,053:INFO: Ending training
+2023-08-31 11:01:41,196:INFO: Starting training
+2023-08-31 11:01:41,197:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:02:01,854:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:02:03,851:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:03:42,371:INFO: Starting training
+2023-08-31 11:03:42,371:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:04:03,299:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:04:05,401:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:04:05,684:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:06:17,746:INFO: Starting training
+2023-08-31 11:06:17,746:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:06:38,936:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:06:40,965:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:06:41,221:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:10:49,306:INFO: Starting training
+2023-08-31 11:10:49,307:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:11:10,105:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:11:12,145:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:11:12,416:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:11:12,416:INFO: Metrics: {'accuracy': <function accuracy at 0x000001F7B0B5D900>, 'ok': <function test_ok at 0x000001F7B0B5D7E0>}
+2023-08-31 11:11:12,416:INFO: Params: <utils.param_utils.Params object at 0x000001F7B0C69A20>
+2023-08-31 11:13:04,867:INFO: Starting training
+2023-08-31 11:13:04,867:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:13:25,487:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:13:27,508:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:13:27,782:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:13:27,783:INFO: Metrics: {'accuracy': <function accuracy at 0x000001ACCB22D900>, 'ok': <function test_ok at 0x000001ACCB22D7E0>}
+2023-08-31 11:13:27,783:INFO: Params: <utils.param_utils.Params object at 0x000001ACCB339A20>, True
+2023-08-31 11:14:13,492:INFO: Starting training
+2023-08-31 11:14:13,493:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/train\KRk.csv
+2023-08-31 11:14:34,409:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:14:36,480:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:14:36,638:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:14:36,638:INFO: Metrics: {'accuracy': <function accuracy at 0x00000161AA2C9900>, 'ok': <function test_ok at 0x00000161AA2C97E0>}
+2023-08-31 11:14:36,639:INFO: Params: <utils.param_utils.Params object at 0x00000161AA3F8550>, True
+2023-08-31 11:15:34,379:INFO: Starting training
+2023-08-31 11:15:34,379:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:15:36,409:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:15:36,668:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:15:36,669:INFO: Metrics: {'accuracy': <function accuracy at 0x0000017D95C5D900>, 'ok': <function test_ok at 0x0000017D95C5D7E0>}
+2023-08-31 11:15:36,669:INFO: Params: <utils.param_utils.Params object at 0x0000017D95D884F0>, True
+2023-08-31 11:17:32,525:INFO: Starting training
+2023-08-31 11:17:32,525:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:17:34,545:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:17:34,811:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:17:34,811:INFO: Metrics: {'accuracy': <function accuracy at 0x0000024CEEFBD900>, 'ok': <function test_ok at 0x0000024CEEFBD7E0>}
+2023-08-31 11:17:34,812:INFO: Params: <utils.param_utils.Params object at 0x0000024CEF0C9A20>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:18:47,474:INFO: Starting training
+2023-08-31 11:18:47,474:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:18:49,513:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:18:49,786:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:18:49,787:INFO: Metrics: {'accuracy': <function accuracy at 0x000001C1646FD870>, 'ok': <function test_ok at 0x000001C1646FD750>}
+2023-08-31 11:18:49,787:INFO: Params: <utils.param_utils.Params object at 0x000001C164809B10>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:20:30,212:INFO: Starting training
+2023-08-31 11:20:30,212:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:20:32,215:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:20:32,477:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:20:32,477:INFO: Metrics: {'accuracy': <function accuracy at 0x0000017B1955D900>, 'ok': <function test_ok at 0x0000017B1955D7E0>}
+2023-08-31 11:20:32,477:INFO: Params: <utils.param_utils.Params object at 0x0000017B19669AE0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:23:00,581:INFO: Starting training
+2023-08-31 11:23:00,582:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:23:02,626:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:23:02,901:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:23:02,901:INFO: Metrics: {'accuracy': <function accuracy at 0x00000132337C9900>, 'ok': <function test_ok at 0x00000132337C97E0>}
+2023-08-31 11:23:02,902:INFO: Params: <utils.param_utils.Params object at 0x00000132338D99F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:23:42,196:INFO: Starting training
+2023-08-31 11:23:42,197:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:23:44,246:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:23:44,518:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:23:44,518:INFO: Metrics: {'accuracy': <function accuracy at 0x000002A918A29900>, 'ok': <function test_ok at 0x000002A918A297E0>}
+2023-08-31 11:23:44,518:INFO: Params: <utils.param_utils.Params object at 0x000002A918B39B10>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:24:02,921:INFO: Starting training
+2023-08-31 11:24:02,921:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:24:04,964:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:24:05,229:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:24:05,229:INFO: Metrics: {'accuracy': <function accuracy at 0x0000026DD6CCD900>, 'ok': <function test_ok at 0x0000026DD6CCD7E0>}
+2023-08-31 11:24:05,230:INFO: Params: <utils.param_utils.Params object at 0x0000026DD6DD9AE0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:24:49,406:INFO: Starting training
+2023-08-31 11:24:49,407:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:24:51,458:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:24:51,729:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:24:51,729:INFO: Metrics: {'accuracy': <function accuracy at 0x0000025287A59900>, 'ok': <function test_ok at 0x0000025287A597E0>}
+2023-08-31 11:24:51,729:INFO: Params: <utils.param_utils.Params object at 0x0000025287B884F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:26:01,666:INFO: Starting training
+2023-08-31 11:26:01,666:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:26:03,685:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:26:03,959:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:26:03,960:INFO: Metrics: {'accuracy': <function accuracy at 0x000001E09D30D900>, 'ok': <function test_ok at 0x000001E09D30D7E0>}
+2023-08-31 11:26:03,960:INFO: Params: <utils.param_utils.Params object at 0x000001E09D4387C0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:26:17,249:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 11:26:17,250:INFO: Ending training
+2023-08-31 11:26:56,123:INFO: Starting training
+2023-08-31 11:26:56,124:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:26:58,154:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:26:58,422:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:26:58,423:INFO: Metrics: {'accuracy': <function accuracy at 0x00000228BA239900>, 'ok': <function test_ok at 0x00000228BA2397E0>}
+2023-08-31 11:26:58,423:INFO: Params: <utils.param_utils.Params object at 0x00000228BA368550>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:27:11,527:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 11:27:11,527:INFO: Ending training
+2023-08-31 11:31:48,691:INFO: Starting training
+2023-08-31 11:31:48,691:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:31:50,753:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:31:51,021:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:31:51,021:INFO: Metrics: {'accuracy': <function accuracy at 0x00000246AAD69900>, 'ok': <function test_ok at 0x00000246AAD697E0>}
+2023-08-31 11:31:51,022:INFO: Params: <utils.param_utils.Params object at 0x00000246AAE984F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:32:04,197:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 11:32:04,197:INFO: Ending training
+2023-08-31 11:33:31,496:INFO: Starting training
+2023-08-31 11:33:31,496:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:33:33,534:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:33:33,791:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:33:33,791:INFO: Metrics: {'accuracy': <function accuracy at 0x0000028EEF6FD900>, 'ok': <function test_ok at 0x0000028EEF6FD7E0>}
+2023-08-31 11:33:33,791:INFO: Params: <utils.param_utils.Params object at 0x0000028EEF8284F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:33:47,010:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 11:33:47,010:INFO: Ending training
+2023-08-31 11:37:03,315:INFO: Starting training
+2023-08-31 11:37:03,318:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:37:05,356:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:37:05,623:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:37:05,623:INFO: Metrics: {'accuracy': <function accuracy at 0x0000016BFA9FD900>, 'ok': <function test_ok at 0x0000016BFA9FD7E0>}
+2023-08-31 11:37:05,624:INFO: Params: <utils.param_utils.Params object at 0x0000016BFAB284F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:37:18,885:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 11:37:18,885:INFO: Ending training
+2023-08-31 11:39:00,726:INFO: Starting training
+2023-08-31 11:39:00,726:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:39:02,774:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:39:03,045:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:39:03,045:INFO: Metrics: {'accuracy': <function accuracy at 0x000001570AC2D900>, 'ok': <function test_ok at 0x000001570AC2D7E0>}
+2023-08-31 11:39:03,045:INFO: Params: <utils.param_utils.Params object at 0x000001570AD58550>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 11:43:57,882:INFO: Starting training
+2023-08-31 11:43:57,882:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 11:43:59,909:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 11:44:00,177:INFO: Starting training for 10 epoch(s)
+2023-08-31 11:44:00,177:INFO: Metrics: {'accuracy': <function accuracy at 0x0000023EC3FC9900>, 'ok': <function test_ok at 0x0000023EC3FC97E0>}
+2023-08-31 11:44:00,178:INFO: Params: <utils.param_utils.Params object at 0x0000023EC40F84F0>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 13:13:22,551:INFO: Starting training
+2023-08-31 13:13:22,551:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:13:24,582:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:13:24,856:INFO: Starting training for 10 epoch(s)
+2023-08-31 13:13:24,857:INFO: Metrics: {'accuracy': <function accuracy at 0x000001527369D900>, 'ok': <function test_ok at 0x000001527369D7E0>}
+2023-08-31 13:13:24,857:INFO: Params: <utils.param_utils.Params object at 0x00000152737C8490>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 13:14:10,364:INFO: Starting training
+2023-08-31 13:14:10,364:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:14:12,374:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:14:12,638:INFO: Starting training for 10 epoch(s)
+2023-08-31 13:14:12,638:INFO: Metrics: {'accuracy': <function accuracy at 0x00000204679ED900>, 'ok': <function test_ok at 0x00000204679ED7E0>}
+2023-08-31 13:14:12,638:INFO: Params: <utils.param_utils.Params object at 0x0000020467B18490>, C:/Users/littl/Documents/GIT/AI/KRk_net/
+2023-08-31 13:14:26,035:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 13:14:26,036:INFO: Ending training
+2023-08-31 13:16:57,542:INFO: Starting training
+2023-08-31 13:16:57,542:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:16:59,573:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:17:12,795:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 13:17:12,795:INFO: Ending training
+2023-08-31 13:20:51,647:INFO: Starting training
+2023-08-31 13:20:51,647:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:20:53,676:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:21:06,998:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 13:21:06,998:INFO: Ending training
+2023-08-31 13:21:27,844:INFO: Starting training
+2023-08-31 13:21:27,844:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:21:29,870:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:21:43,096:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 13:21:43,097:INFO: Ending training
+2023-08-31 13:25:47,645:INFO: Starting training
+2023-08-31 13:25:47,646:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/val\KRk.csv
+2023-08-31 13:25:49,680:INFO: File: C:/Users/littl/Documents/GIT/AI/KRk_net/data/test\KRk.csv
+2023-08-31 13:26:02,965:INFO: !- Train metrics: accuracy: 0.963 ; ok: 1.000 ; loss: 0.097 3
+2023-08-31 13:26:44,983:INFO: !- Train metrics: accuracy: 0.933 ; ok: 0.995 ; loss: 0.228 3
+2023-08-31 13:26:44,987:INFO: Ending training

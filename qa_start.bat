@@ -1,0 +1,1 @@
+python qa_manager.py  --experiment_dir experiments/quick_start

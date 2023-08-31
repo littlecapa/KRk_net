@@ -4,16 +4,37 @@ import logging
 import numpy as np
 from torch.autograd import Variable
 from tqdm import tqdm
+import torch
+import io
 
 import model.net as net
 import data_loader as data_loader
 from utils.stats_utils import RunningAverage, Summary
-from utils.file_utils import load_checkpoint, save_checkpoint, save_dict_to_json, BEST_DICT_JSON
+from utils.file_utils import load_checkpoint, save_checkpoint, save_dict_to_json, BEST_DICT_JSON, BEST_CHECKPOINT_FILENAME
 
 class Trainer():
 
     def __init__(self, loss_fn):
         self.loss_fn = loss_fn
+        self.qa_list = []
+
+    def __del__(self):
+        if len(self.qa_list) > 0:
+            with io.open("qa.csv", 'a') as f:
+                for qa_result in self.qa_list:
+                    expected, actual = qa_result
+                    f.write(f"{expected};{actual}\n")
+
+    def add_qa_result(self, expected, actual):
+        max_index = torch.argmax(actual, dim=-1)
+        new_qa = (expected.item(), max_index.item())
+        self.qa_list.append(new_qa)
+
+    def add_qa_result_tensors(self, labels_batch, output_batch):
+        batch_size = output_batch.size()[0]
+        for i in range(batch_size):
+            self.add_qa_result(labels_batch[i], output_batch[i])
+
 
     def set_model(self, model):
         self.model = model
@@ -26,7 +47,7 @@ class Trainer():
     def set_optimizer(self, optimizer):
         self.optimizer = optimizer
 
-    def run_model(self, loss_fn, loader, metrics, params, training = False):
+    def run_model(self, loss_fn, loader, metrics, params, training = False, qa = False):
         if training:
             self.model.train()
         else:
@@ -48,6 +69,8 @@ class Trainer():
 
                 # compute model output and loss
                 output_batch = self.model(input_batch)
+                if qa:
+                    self.add_qa_result_tensors(labels_batch, output_batch)
                 loss = loss_fn(output_batch, labels_batch)
         
                 if training:
@@ -84,6 +107,12 @@ class Trainer():
         logging.info(f"!- Train metrics: {metrics_string} {len(summ[0])}")
         return metrics_mean, summary_batch
     
+    def qa(self, metrics, params):
+        load_checkpoint(model = self.model, base_dir = params.base_dir, checkpoint_dir = params.checkpoint_dir, optimizer = None, restore_file =  BEST_CHECKPOINT_FILENAME)
+        for loader in [self.test_dataloader, self.val_dataloader]:
+            _, _ = self.run_model(loss_fn = self.loss_fn, loader = loader, metrics = metrics, params = params, training = False, qa = True)
+        
+
     def train_and_evaluate(self, metrics, params, restore):
         """Train the model and evaluate every epoch.
 
